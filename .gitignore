@@ -1,0 +1,40 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# SQLite database files
+*.sqlite3
+
+# Django migrations
+*/migrations/*
+*.pyc
+
+# macOS stuff
+.DS_Store
+
+# Pipenv files
+Pipfile.lock
+
+# IDE settings
+.vscode/
+.idea/
+
+# Ignore the node_modules folder if you are using Node.js/React in your Django project
+node_modules/
+
+# Ignore database and secret keys
+db.sqlite3
+.env
+
+# Static and media files
+/staticfiles/
